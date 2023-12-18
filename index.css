@@ -1,0 +1,51 @@
+h1{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+}
+#fetchBtn{
+    width:20%;
+    padding:1% 0% 1% 0%;
+    margin:2% 40%;
+    font-size:120%;
+    border-radius: 5px;
+    border-color: cadetblue;
+    position:relative;
+}
+#container{
+    border:0px solid black;
+    width:60%;
+    height:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:20%;
+    position:absolute;
+    
+}
+.user-card{
+    border:0px solid goldenrod;
+    width:95%;
+    margin:auto;
+    margin-top:5%;
+    border-radius:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.user-card > img{
+    width:90%;
+    margin:3% 5%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border:2px solid goldenrod;
+}
+h4{
+    padding-left:5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back-btn{
+    width:10%;
+    font-size:120%;
+    margin:0% 0% 0% 10%;
+    border-radius:5px;
+    border-color:cadetblue;
+    display:none;
+}
